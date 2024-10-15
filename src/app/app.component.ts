@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   orders: any[] = [];
   totalOrders: number = 0;
   selectedCustomer: any | null = null;
-
+title = 'Pedidos de clientes';
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {

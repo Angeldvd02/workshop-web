@@ -15,7 +15,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private baseUrl = 'https://mbalzav.alwaysdata.net/api'; // Cambia esto por la URL de tu API
+  private baseUrl = 'https://angelpacheco.alwaysdata.net/api'; // Cambia esto por la URL de tu API
 
   constructor(private http: HttpClient) {}
 
