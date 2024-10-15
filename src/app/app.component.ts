@@ -56,6 +56,7 @@ title = 'Pedidos de clientes';
   }
 
   calculateTotal() {
-    this.totalOrders = this.orders.reduce((total, order) => total + (order?.total || 0), 0);
-  }
+    this.totalOrders = this.orders.reduce((total, order) => total + parseFloat(order?.total || 0), 0);
+}
+
 }
